@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 sleep 10
 if [ "$TAR_PATH" = "" ]; then
 
