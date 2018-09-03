@@ -60,7 +60,8 @@ MYSQL_HOST=db
 MYSQL_DATABASE=wordpress
 MYSQL_USER=root
 MYSQL_PASSWORD=123456
-TAR_PATH="dumpdb" #no trailing slash
+TAR_PATH="dumpdb" 
+#no trailing slash
 ### S3 or minio host
 S3_HOST=minio:9000
 ### Protocol
