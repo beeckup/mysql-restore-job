@@ -1,5 +1,7 @@
 # Sidecar Restore Mysql
 
+## Automatic s3 mysql tar.gz restore
+
 Example deploy on  ```deploy_sidecar_example/docker-compose.yml```
 
 Copy `env.sample` as `.env`
@@ -77,7 +79,7 @@ Create `docker-compose.yml` file:
 version: '2'
 services:
   sidecar-restore-volumes:
-      image: nutellinoit/sidecar-restore-mysql:latest
+      image: beeckup/sidecar-restore-mysql:latest
       restart: "no"
       environment:
         - MYSQL_HOST=${MYSQL_HOST}
