@@ -1,7 +1,7 @@
 version: '2'
 services:
   sidecar-restore-mysql:
-      image: nutellinoit/sidecar-restore-mysql:latest
+      image: beeckup/sidecar-restore-mysql:latest
       restart: "no"
       environment:
         - MYSQL_HOST=${MYSQL_HOST}
